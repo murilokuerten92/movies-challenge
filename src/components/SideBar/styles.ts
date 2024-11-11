@@ -1,12 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-display: flex;
-flex-direction: column;
-height: 100vh;
-`
-
-export const Aside = styled.aside`
+export const Container = styled.aside`
    display: flex;
     flex: 0.6;
     background-color: ${({ theme }) => theme.colors.lightGray};   
@@ -20,13 +14,3 @@ a{
 }
 `
 
-export const MainContent = styled.div`
-display: flex;
-height: 100vh;
-
-
-main {
-    flex: 3;
-    background-color: ${({ theme }) => theme.colors.white};
-}
-`
