@@ -1,5 +1,5 @@
-import { screen, fireEvent } from '@testing-library/react';
-import { MemoryRouter, Router } from 'react-router-dom';
+import { screen } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
 import { Aside } from '../SideBar'; // Adjust the path as needed
 import { render } from '../../utils/test-utils';
 import '@testing-library/jest-dom';
