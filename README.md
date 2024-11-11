@@ -1,46 +1,37 @@
-# Getting Started with Create React App
+# :memo: Movies-list WebApp
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :dart: Goals
 
-## Available Scripts
+Develop a webapp, with a movies list funcionalities where the user can check a list of movies and dashboard with data analysis.
 
-In the project directory, you can run:
+## :hammer: Stack
 
-### `npm start`
+- [ReactJS](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Styled Components](https://styled-components.com/)
+- [Testing Library](https://testing-library.com/docs/react-testing-library/intro/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## :computer: Installation
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**If you never run a React project, will be necesssary download [Node >= 14 e npm >= 5.6](https://nodejs.org/en/), and [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable).**
 
-### `npm test`
+To run this project in your machine, you wanna have to install dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`$ yarn` or `$ npm install`
 
-### `npm run build`
+After installing all dependencies, to run the project in a local environment, you can run on your terminal:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+`$ yarn start` or `$ npm run start`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You can also run the application tests by running:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`$ yarn test`  or `$ npm run test`
 
-### `npm run eject`
+If you want to publish the app, you can generate the build of it and send it to production using the following command:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`$ yarn build`  or `$ npm run build`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :boy: Contact
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Murilo Kuerten - [Github](https://github.com/murilokuerten92) - **[murilokuerten92@gmail.com](murilokuerten92r@gmail.com)**

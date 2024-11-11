@@ -11,9 +11,7 @@ const AppRoutes: React.FC = () => {
         <Route path="/" element={<Home />}>
           <Route path="dashboard" element={<Dashboard />} />
           <Route path="movies-list" element={<MoviesList />} />
-
         </Route>
-
         <Route path="*" element={<NotFound />} />      </Routes>
     </Router>
   );
