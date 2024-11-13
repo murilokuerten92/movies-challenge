@@ -1,8 +1,8 @@
-import { render, screen } from '@testing-library/react';
+import { screen } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import Table from '../Table';
-import { ThemeProvider } from 'styled-components';
 import theme from '../../styles/theme';
+import { render } from '../../utils/test-utils';
 
 describe('Table Component', () => {
     const columns = [
@@ -18,14 +18,14 @@ describe('Table Component', () => {
     ];
 
     it('renders table headers correctly', () => {
-        render(<ThemeProvider theme={theme}><Table columns={columns} data={data} /></ThemeProvider>);
+        render(<Table columns={columns} data={data} />);
         columns.forEach((column) => {
             expect(screen.getByText(column.title)).toBeInTheDocument();
         });
     });
 
     it('renders table rows with the correct data', () => {
-        render(<ThemeProvider theme={theme}><Table columns={columns} data={data} /></ThemeProvider>);
+        render(<Table columns={columns} data={data} />);
         data.forEach((row) => {
             expect(screen.getByText(row.name)).toBeInTheDocument();
             expect(screen.getByText(row.age.toString())).toBeInTheDocument();
@@ -34,7 +34,7 @@ describe('Table Component', () => {
     });
 
     it('applies alternating row colors', () => {
-        render(<ThemeProvider theme={theme}><Table columns={columns} data={data} /></ThemeProvider>);
+        render(<Table columns={columns} data={data} />);
         const rows = screen.getAllByRole('row');
 
         const dataRows = rows.slice(1); 
